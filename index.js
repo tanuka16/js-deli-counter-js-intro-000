@@ -9,9 +9,9 @@ var katzDeliLine = [];                              //create an empty array
 
 function takeANumber(katzDeliLine, newName){        //function accepts 2 argument 1- people on line
                                                     //2- name of the new person on line
-      katzDeliLine.push(newName);
+      katzDeliLine.push(newName);                   //push the new customer at the end of the array
       return "Welcome, " + newName + ". You are number " + katzDeliLine.length +" in line."
-    }
+    }                                               //return the string with the new position of the customer
 
 /*Build a function nowServing. This function should accept the current line of people (katzDeliLine)
  and return the first person in line and then remove that individual from the line.
@@ -21,7 +21,7 @@ function nowServing(katzDeliLine){
   while (i <  katzDeliLine.length){                        //if the condition is true continue incrementing
     i++;                                                   //move to the next customer
   }
-  if (katzDeliLine.length === 0){                          //if custome line = 0 customer
+  if (katzDeliLine.length === 0){                          //check if the length of the array custome line = 0 customer
     return "There is nobody waiting to be served!";        // print
   }
   else {
@@ -41,7 +41,7 @@ it should return "The line is currently empty."*/
 function currentLine(katzDeliLine){
   var lineNum = [];
   for (var i=0; i < katzDeliLine.length; i++){
-    lineNum.push
+    lineNum.push()
   }
   if (katzDeliLine.length === 0){
   return "The line is currently empty."
