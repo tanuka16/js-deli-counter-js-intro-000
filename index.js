@@ -47,6 +47,6 @@ function currentLine(katzDeliLine){
   return "The line is currently empty."
 }
 else{
-  return "The line is currently: " + lineNum + " , ";                      //The line is currently: 1. Bill, 2. Jane, 3. Ann
+  return "The line is currently: " + lineNum + (", ");                      //The line is currently: 1. Bill, 2. Jane, 3. Ann
 }
 }
