@@ -15,6 +15,8 @@ function nowServing(katzDeliLine){
     return "Currently serving " + customer + ".";
   }
 }
+
+
 function currentLine(katzDeliLine){
   return "The line is currently:" + katzDeliLine + "."
 }
