@@ -39,7 +39,7 @@ it's just an example of a variable that might be passed to it. If there is nobod
 it should return "The line is currently empty."*/
 
 function currentLine(katzDeliLine){
-  for (var i=0; i = )
+  for (var i=0; i < katzDeliLine.length; i++)
   if (katzDeliLine.length === 0){
   return "The line is currently empty."
 }
