@@ -11,15 +11,15 @@ function takeANumber(katzDeliLine, newName){        //function accepts 2 argumen
  If there is nobody in line, it should return "There is nobody waiting to be served!"*/
 function nowServing(katzDeliLine){
   let i = 0;
-  while (i <  katzDeliLine.length){
-    i++;
+  while (i <  katzDeliLine.length){                        //if the condition is true continue incrementing
+    i++;                                                   //move to the next customer
   }
-  if (katzDeliLine.length === 0){                          //1st array holds 0 place
-    return "There is nobody waiting to be served!";
+  if (katzDeliLine.length === 0){                          //if custome line = 0 customer
+    return "There is nobody waiting to be served!";        // print
   }
   else {
-    var customer = katzDeliLine.shift();
-    return "Currently serving " + customer + ".";
+    var customer = katzDeliLine.shift();                   //else remove the customer from the front of the array/line
+    return "Currently serving " + customer + ".";          //concat 
   }
 }
 
