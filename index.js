@@ -41,9 +41,9 @@ it should return "The line is currently empty."*/
 function currentLine(katzDeliLine){
   var lineNum = [];
   for (var i=0; i < katzDeliLine.length; i++){
-    lineNum.push(" " + [i + 1] + ". " + katzDeliLine[i])                           //push the index and current position in the empty arrray
+    lineNum.push(" " + [i + 1] + ". " + katzDeliLine[i])          //push the index and current position in the empty arrray
   }
-  if (katzDeliLine.length === 0){
+  if (katzDeliLine.length === 0){                                 //if the array is 
   return "The line is currently empty."
 }
 else{
